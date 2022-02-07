@@ -1,0 +1,104 @@
+.playlist-list {
+  display: flex;
+  flex-flow: row wrap;
+  max-width: 50vw;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.btn {
+  background-color: lightblue;
+
+  display: flex;
+  justify-content: center;
+  width: 50px;
+  margin-left: 10;
+}
+
+.playlist {
+  height: 300px;
+  width: 200px;
+  background-color: lightgrey;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
+  padding: 10px;
+}
+
+.playlist .description,
+.playlist .createdAt {
+  height: 80px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.playlist-form,
+.filter-list {
+  height: 300px;
+  width: 200px;
+  background-color: gainsboro;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
+  padding: 10px;
+}
+
+.playlist-form .description {
+  height: 60px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.playlist-form .add input,
+.btn-filters {
+  height: 30px;
+  width: 80px;
+  background-color: lightblue;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons {
+  width: 200px;
+  height: 30px;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.buttons-export-import {
+  width: 100px;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 10px;
+}
+
+.export-container,
+.import-container {
+  padding-top: 20em;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  width: 20em;
+  height: auto;
+}
+
+#form {
+  height: 200px;
+}
